@@ -1054,7 +1054,7 @@ function jobs ()
 		exec 3>&-
 
 		if [[ $exitstatus = 0 ]]; then
-			configure_desktop "--install-recommends" "$TARGET_DESKTOP"
+			configure_desktop "$TARGET_DESKTOP"
 		fi
 	;;
 
